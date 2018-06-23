@@ -320,6 +320,9 @@ A single entity is likely to be both a Transaction Extractor and an Input Finali
 
 A PSBT can be represented in two ways: in binary (as a file) or as a Base64 string using the encoding described in [https://tools.ietf.org/html/rfc4648#section-4 RFC4648].
 
+Binary PSBT files should use the <tt>.psbt</tt> file extension.
+The MIME type <tt>application/psbt</tt> can be used.
+
 ==Extensibility==
 
 The Partially Signed Transaction format can be extended in the future by adding
